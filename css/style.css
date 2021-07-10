@@ -1,14 +1,25 @@
 
 /* import fonts from fonts file */
 @import url(./fonts.css);
+
+
+/* css variables */
 @import url(./partials/_variables.css);
 
+/* import global styling */
+@import url(./partials/_global.css);
 
 
 /* start navigation */
 
+.header_area{
+    background: var(--primary-color2);
+}
+
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
+    font: normal bold 1.75rem var(--OCR-A);
+    letter-spacing: 4px;
 }
 
 .header_area .main-menu .navbar{
@@ -16,11 +27,10 @@
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font-family: var(--roboto);
+    font: normal 500 15px/15px var(--roboto);
     text-transform: uppercase;
-    font-weight: 500;
     padding: 1.7rem;
-    color: var(--text-color);
+    color: var(--title-color);
 }
 
 .header_area .main-menu .navbar-nav .active a{
@@ -30,4 +40,97 @@
     background-clip: text;
 }
 
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 /* end navigation */
+
+
+/* banner area */
+
+.site-main .site-banner {
+    background: url(../img/banner/home-banner.png) no-repeat ;
+    padding: 3rem;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 4rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-img > img{
+    padding: 7rem 0;
+    width: 90rem;
+    border-radius: 50%;
+}
+
+.site-main .site-banner .button{
+    margin-left: 3rem;
+}
+
+/* end banner area */
+
+/* start body area */
+
+.site-main .body-break{
+    height: 3rem;
+    background: var(--gradient-color2);
+    border-width: medium;
+    border-color: var(--primary-color3);
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.site-main .body-header{
+    font: normal bold 2.5rem var(--OCR-A);
+    letter-spacing: 4px;
+}
+
+.site-main .body-sub-header{
+    font: normal bold 2rem var(--roboto);
+    color: var(--text-color);
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+.site-main .experience-title{
+    font: normal bold 2rem var(--roboto);
+    color: var(--primary-color);
+    padding-bottom: .5rem;
+}
+
+.site-main .body-img{
+    margin-right: auto;
+    margin-left: 20%;
+    width: 20px;
+}
+
+.site-main .things-done-list{
+    color: var(--text-color);
+    font: normal 500 22px var(--roboto);
+    line-height: 150%;
+    list-style-image: url(../img/body/body-bullet-point.png);
+}
+
+.site-main .about-area, .site-main .edu-and-exp-area, .site-main .projects-area{
+    padding: 2.5rem 2.5rem;
+    background-color: var(--primary-color2);
+}
+
+.site-main .edu-and-exp-area .body-button{
+    margin-top: 6rem;
+}
+
+/* end body area */

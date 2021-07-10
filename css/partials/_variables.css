@@ -12,17 +12,20 @@ html, body{
 /* CSS Variables */
 
 :root{
-    --primary-color: #4458dc;
-    --primary-color2: #854fee;
+    --primary-color: #2F5597;
+    --primary-color2: #ececec;
+    --primary-color3: #666666;
     --title-color: #141313;
-    --text-color: #777777;
+    --text-color: black;
     --border-color: #201f1f17;
-    --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    --gradient-color: linear-gradient(90deg, #5b5a5e 0%, #305494 100%);
+    --gradient-color2: linear-gradient(90deg, #ececec 45%, #666666 80%);
     --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
     --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 
 
     /* font family variables */
     --roboto: 'Roboto', cursive;
+    --OCR-A: 'OCR-A', cursive;
 
 }
