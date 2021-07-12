@@ -14,9 +14,13 @@
 
     <!-- custom css file -->
     <link rel="stylesheet"href="./css/style.css">
+
+    <!--responsive css file -->
+    <link rel="stylesheet"href="./css/responsive.css">
+
 </head>
 <body>
-    
+
     <!-- ======================================== Start Header Area ================================== -->
     
     <header class="header_area">
@@ -31,20 +35,20 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="me-auto"></div>
                     <ul class="navbar-nav">
-                      <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#edu-and-exp">Education and Experience</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Education and Experience</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#about-me">About Me</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">About Me</a>
+                        <a class="nav-link" href="./downloads/Cardayell_Morgan_Resume.pdf" download>Resume</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Resume</a>
+                        <a class="nav-link" href="mailto:contact@cardayell.com">contact</i></a>
                       </li>
                     </ul>
                   </div>
@@ -70,8 +74,26 @@
                 <h4 class="title-text text-uppercase">May 2021 Computer Science Graduate</h4>
                 <div class="site-buttons">
                   <div class="d-flex flex-row flex-wrap">
-                    <button type="button" class="btn button primary-button me-4 text-uppercase">about me</button>
-                    <button type="button" class="btn button secondary-button text-uppercase">Resume</button>
+                    <a href="#about-me">
+                      <button type="button" class="btn button primary-button me-4 text-uppercase">about me</button>
+                    </a>
+                    <a href="./downloads/Cardayell_Morgan_Resume.pdf" download>
+                      <button type="button" class="btn button secondary-button text-uppercase">Resume</button>
+                    </a>
+                  </div>
+                  <div class="social row">
+                    <div class="col">
+                      <a href="mailto:contact@cardayell.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <div class="col">
+                      <a href="phone:(775) 223-9274"><i class="fas fa-phone"></i></a>
+                    </div>
+                    <div class="col">
+                      <a href="https://www.linkedin.com/in/cardayell-morgan/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <div class="col">
+                      <a href="https://github.com/Cardayellm/"><i class="fab fa-github"></i></a>
+                    </div>
                   </div>
                 </div> 
               </div>
@@ -83,7 +105,7 @@
         </section>
       <!-- ======================================== End Banner Area ================================== -->
 
-      <section class="body-break"></section>
+      <section id="edu-and-exp" class="body-break"></section>
 
       <!-- ======================================== Start Education and Experience Area ================================== -->
 
@@ -96,17 +118,19 @@
             <div class="body-sub-header">Education</div>
               <div class="row">
                 <div class="col-8">                
-                  <div class="experience-title">B.S. Computer Science & Engineering</div>
+                  <div class="degree-title">B.S. Computer Science & Engineering</div>
                     <li class="things-done-list">GPA of 3.7/4.0</li>
                     <li class="things-done-list">Honors Degree</li>
                     <li class="things-done-list">Math Minor</li>
                     <li class="things-done-list">Business Administration Minor</li>
-                    <div class="body-button">
-                      <button type="button" class="btn button primary-button me-4">Unoffical Transcript</button>
+                    <div class="transcript-button">
+                      <a href="./downloads/Cardayell_Morgan_Unoffical_Transcript.pdf" download>
+                        <button type="button" class="btn button primary-button">Unoffical Transcript</button>
+                      </a>
                     </div>                    
                 </div>
                 <div class="col-4">
-                  <div class="body-img">
+                  <div class="edu-and-exp-body-img">
                     <img src="./img/objects/unr-logo.png" alt="unr-logo">
                   </div>
                 </div>
@@ -115,25 +139,37 @@
               <div class="row">
                 <div class="col-8">        
                     <div class="experience-title">Student Helpdesk Senior Technician</div>
-                    <div class="experience-title">Sep 2018 – July 2021</div>
+                    <div class="experience-date">Sep 2018 – July 2021</div>
                       <li class="things-done-list">Troubleshoot and solve software and hardware problems with university members</li>
-                      <li class="things-done-list">Manage office communication between supervisors and 12 technicians </li>
+                      <li class="things-done-list">Manage office communication between supervisors and 12 technicians</li>
                       <li class="things-done-list">Train new students with on the job tasks</li>
                 </div>
                 <div class="col-4">
-                  <div class="body-img">
+                  <div class="edu-and-exp-body-img">
                     <img src="./img/objects/unr-logo.png" alt="unr-logo">
                   </div>
                 </div>
               </div>
-            </div>
-            
+              <div class="row">
+                  <div class="col-8">        
+                    <div class="experience-title">Student Research Assistant</div>
+                    <div class="experience-date">Jan 2020 – May 2020</div>
+                      <li class="things-done-list">Worked with a small team under the Dean of Students to research factors that influence students’ sense of belonging at the university</li>
+                      <li class="things-done-list">Analyzed data in Excel and cooperatively produced a report that was presented to the university board of regents</li>
+                </div>
+                <div class="col-4">
+                  <div class="edu-and-exp-body-img">
+                   <img src="./img/objects/unr-logo.png" alt="unr-logo">
+                  </div>
+                </div>
+              </div>
+            </div>            
         </div>
       </section>  
 
       <!-- ======================================== End Education and Experience Area ================================== -->
 
-      <section class="body-break"></section>
+      <section id="projects" class="body-break"></section>
 
       <!-- ======================================== Start Projects Area ================================== -->
 
@@ -143,18 +179,51 @@
             <header class="post-header">
               <h2 class="body-header">Projects</h2>
             </header>
+            <div class="project-title">SnowPass</div>
+            <div class="project-description">Web application for live weather, traffic camera video, and department of transportation updates along a route</div>
+            <div class="project-description">Tools used: React, CSS</div>
+            <div class="project-description">Team: Four other fourth year Computer Science majors</div>
+            <div class="body-sub-header">Description</div>
             <div class="paragraph">
               <p class="para">
-                I am a recent graduate with a honor's Bachelor of Science degree in Computer Science and Engineering (3.7 GPA) from the University of Nevada, Reno. Most of my college career I worked with C-Style languages and python, but in my senior year I studied HTML5, CSS3, and the React framwork. I worked for 2 years in IT customer support as well as completed a semester long research project during my juinor year. I am interested in front-end and full stack development, but I am excited to learn skills for other roles in the tech industry.  
+                Heavy snowfall, strong winds, and low temperatures are common during the winter in northern Nevada. Knowledge of relevant road conditions is vital for safe travel for drivers taking trips through these regions. This information is currently accessible through multiple different sources. SnowPass streamlines the gathering of road condition data and compiles it into one easy-to-use application.  After choosing any two points in California or Nevada, SnowPass will show the best route then display route specific weather, live traffic camera video, and Department of Transportation Tweets, helping drivers stay safe and informed.
               </p>
             </div>
+            <div class="project-body-img">
+              <img src="./img/objects/SnowPass-main.PNG" alt="SnowPass-main-page">
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="body-sub-header">My Contribution</div>
+                <li class="things-done-list">Cooperatively designed and programed front-end component of the application</li>
+                <li class="things-done-list">Used agile programming method with two week sprints and team meetings</li>
+                <li class="things-done-list">Communicated with departments of transportation and leading inteligent transportation systems designers</li>
+                <li class="things-done-list">Led team in presentation of the application</li>
+                <li class="things-done-list">Implimented weather and Twitter APIs</li>
+              </div>
+              <div class="col">
+                <div class="projects-team">
+                  <img src="./img/objects/SnowPass-team.png" alt="unr-logo">
+                 </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="project-button">
+                  <a href="https://thesnowpass.com/">
+                    <button type="button" class="btn button primary-button">SnowPass Website</button>
+                  </a>
+                </div>
+              </div>
+          </div>
           </div>
         </div>
-      </section>  
+      </section> 
+       
 
       <!-- ======================================== End Education and Experience Area ================================== -->
 
-      <section class="body-break"></section>
+      <section id="about-me" class="body-break"></section>
 
       <!-- ======================================== Start About Area ================================== -->
 
@@ -169,9 +238,110 @@
                 I am a recent graduate with a honor's Bachelor of Science degree in Computer Science and Engineering (3.7 GPA) from the University of Nevada, Reno. Most of my college career I worked with C-Style languages and python, but in my senior year I studied HTML5, CSS3, and the React framwork. I worked for 2 years in IT customer support as well as completed a semester long research project during my juinor year. I am interested in front-end and full stack development, but I am excited to learn skills for other roles in the tech industry.  
               </p>
             </div>
+            <div class="project-title">Computer Science Areas of Interest</div>
+              <li class="things-done-list">A.I. created music</li>
+              <li class="things-done-list">Automated A.I. Rationale Greneration</li>
+              <li class="things-done-list">Robotics and human robot interaction (HRI)</li>
+              <li class="things-done-list">Human computer interation (HCI)</li>
+            <div class="body-sub-header">Personal Life</div>
+            <div class="project-title">Photography</div>
+            <div class="paragraph">
+              <p class="para">
+                I am an amateur photographer and my favorite type is landscape photography, but I generally enjoy taking pictures of anything aesthetic or if I have good memories attached to the picture. Here are some examples.  
+              </p>
+            </div>
+          </div>
+            <div class="photo-gallery">
+              <div class="container" style="padding: 0px;">
+                <div class="photo-slides">
+                  <img src="./img/photos/IMG_1850.jpg" style="width:100%">
+                </div>              
+                <div class="photo-slides">
+                  <img src="./img/photos/IMG_1933.jpg" style="width:100%">
+                </div>              
+                <div class="photo-slides">
+                  <img src="./img/photos/IMG_1802.jpg" style="width:100%">
+                </div>                  
+                <div class="photo-slides">
+                  <img src="./img/photos/IMG_1784.jpg" style="width:100%">
+                </div>              
+                <div class="photo-slides">
+                  <img src="./img/photos/IMG_1709.jpg" style="width:100%">
+                </div>                  
+                <div class="photo-slides">
+                  <img src="./img/photos/IMG_1894.jpg" style="width:100%">
+                </div>
+                <div class="photo-slides">
+                  <img src="./img/photos/IMG_1714.jpg" style="width:100%">
+                </div>
+                <div class="photo-slides">
+                  <img src="./img/photos/IMG_1900.jpg" style="width:100%">
+                </div>
+                <div class="photo-slides">
+                  <img src="./img/photos/IMG_1915.jpg" style="width:100%">
+                </div>
+                <div class="photo-slides">
+                  <img src="./img/photos/IMG_1823.jpg" style="width:100%">
+                </div>
+                <div class="photo-slides">
+                  <img src="./img/photos/IMG_1945.jpg" style="width:100%">
+                </div>
+                <div class="photo-slides">
+                  <img src="./img/photos/IMG_1813.jpg" style="width:100%">
+                </div>
+                <div class="photo-slides">
+                  <img src="./img/photos/IMG_1901.jpg" style="width:100%">
+                </div>
+                <div class="photo-slides">
+                  <img src="./img/photos/IMG_1832.jpg" style="width:100%">
+                </div>
+                <div class="photo-slides">
+                  <img src="./img/photos/IMG_1769.jpg" style="width:100%">
+                </div>
+                  
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+              </div>
+            </div>
+            <div class="project-title">Lyrics Anotation</div>
+            <div class="paragraph">
+              <p class="para">
+                A hobby of mine is transcribing and annotating song lyrics by giving the lyrics context based on what the artist has said about the song. I do this on Genius.com and have been annotating lyrics since the Summer of 2020.  
+              </p>
+            </div>
+            <div class="project-button">
+              <a href="https://genius.com/Programus">
+                <button type="button" class="btn button primary-button">Genius Profile</button>
+              </a>
+            </div>
           </div>
         </div>
       </section>
+
+      <!-- ======================================== Start Photo Gallery Script ================================== -->
+
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+      
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("photo-slides");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          slides[slideIndex-1].style.display = "block";
+        }
+        </script>
+
+      <!-- ======================================== End Photo Gallery Script ================================== -->
 
       <!-- ======================================== End About Area ================================== -->
 
@@ -180,12 +350,31 @@
     </main>
     <!-- ======================================== End Main Area ================================== -->
     
+    <footer class="footer-area">
+      <div class="container">
+        <div>
+          <div class="footer-title text-center py-1">
+            <a href="#">Top of page</a>
+          </div>
+          <div class="email text-center">
+            <a href="mailto:contact@cardayell.com">contact@cardayell.com</i></a>
+          </div>
+          <div class="github-repository text-center">
+            <a href="https://github.com/Cardayellm/Professional-Website">Website Source code</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <!-- Jquery js file -->
     <script src="js/jquery.3.6.0.js"></script>
 
 
     <!-- Bootstrp js file -->
     <script src="./js/bootstrap.min.js"></script>
+
+    <!-- custom js file -->
+    <script src="./js/main.js"></script>
 
 </body>
 </html>
