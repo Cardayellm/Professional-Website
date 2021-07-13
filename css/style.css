@@ -1,6 +1,6 @@
 
 /* import fonts from fonts file */
-@import url(https://cardayellm.github.io/pages/cardayellm/cardayell.com/css/fonts.css);
+@import url(cardayellm/cardayell.com/css/fonts.css);
 
 /* css variables */
 @import url(/partials/_variables.css);
