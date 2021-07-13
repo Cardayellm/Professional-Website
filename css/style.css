@@ -18,17 +18,17 @@
 @import "../css/partials/_global.css";
 @import url("../css/partials/_global.css");
 
-@import url(../cardayell.com/css/partials/_global.css);
-@import "../cardayell.com/css/partials/_global.css";
-@import url("../cardayell.com/css/partials/_global.css");
+@import url(../portfolio/css/partials/_global.css);
+@import "../portfolio/css/partials/_global.css";
+@import url("../portfolio/css/partials/_global.css");
 
-@import url(./cardayell.com/css/partials/_global.css);
-@import "./cardayell.com/css/partials/_global.css";
-@import url("./cardayell.com/css/partials/_global.css");
+@import url(./portfolio/css/partials/_global.css);
+@import "./portfolio/css/partials/_global.css";
+@import url("./portfolio/css/partials/_global.css");
 
-@import url(cardayell.com/css/partials/_global.css);
-@import "cardayell.com/css/partials/_global.css";
-@import url("cardayell.com/css/partials/_global.css");
+@import url(portfolio/css/partials/_global.css);
+@import "portfolio/css/partials/_global.css";
+@import url("portfolio/css/partials/_global.css");
 
 
 /* start navigation */
