@@ -6,7 +6,7 @@
 @import "_variables.css";
 
 /* import global styling */
-@import url(https://github.com/Cardayellm/cardayell.com/blob/709061748a77569120d5dbd499d1f0c5a42da063/css/partials/_global.css);
+@import url(../css/partials/_global.css);
 
 /* start navigation */
 
