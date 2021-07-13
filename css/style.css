@@ -1,19 +1,12 @@
 
 /* import fonts from fonts file */
-
+@import url(fonts.css);
 
 /* css variables */
-<<<<<<< HEAD
-@import url(./_variables.css);
+@import url(_variables.css);
 
 /* import global styling */
-@import url("./_global.css");
-=======
-
-
-/* import global styling */
-@import url("partials/_global.css");
->>>>>>> 11f0df60fcc7344d36e9a539479776efb9fa95e2
+@import url("_global.css");
 
 
 /* start navigation */
