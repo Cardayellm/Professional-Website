@@ -4,10 +4,10 @@
 
 @font-face{
     font-family: "Roboto";
-    src: url("../cardayell.com/fonts/Roboto/Roboto-Regular.ttf");
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: "OCR-A";
-    src: url("../cardayell.com//fonts/OCR-A/OCR-A-Regular.ttf");
+    src: url(../fonts/OCR-A/OCR-A-Regular.ttf);
 }
