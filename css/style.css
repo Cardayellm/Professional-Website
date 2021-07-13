@@ -1,12 +1,13 @@
 
 /* import fonts from fonts file */
-@import url("fonts.css");
+@import url("www.cardayell.com/css/fonts.css");
 
 /* css variables */
-@import url("partials/variables.css");
+@import url("www.cardayell.com/css/partials/variables.css");
 
 /* import global styling */
-@import url("../cardayell.com/css/partials/_global.css");
+@import url("www.cardayell.com/css/partials/_global.css");
+
 
 /* start navigation */
 
