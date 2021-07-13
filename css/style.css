@@ -10,17 +10,25 @@
 @import "partials/_global.css";
 @import url("partials/_global.css");
 
-@import url(./partials/_global.css);
-@import "./partials/_global.css";
-@import url("./partials/_global.css");
+@import url(./css/partials/_global.css);
+@import "./css/partials/_global.css";
+@import url("./css/partials/_global.css");
 
-@import url(../partials/_global.css);
-@import "../partials/_global.css";
-@import url("../partials/_global.css");
+@import url(../css/partials/_global.css);
+@import "../css/partials/_global.css";
+@import url("../css/partials/_global.css");
 
-@import url(../cardayell.com/partials/_global.css);
-@import "../cardayell.com/partials/_global.css";
-@import url("../cardayell.com/partials/_global.css");
+@import url(../cardayell.com/css/partials/_global.css);
+@import "../cardayell.com/css/partials/_global.css";
+@import url("../cardayell.com/css/partials/_global.css");
+
+@import url(./cardayell.com/css/partials/_global.css);
+@import "./cardayell.com/css/partials/_global.css";
+@import url("./cardayell.com/css/partials/_global.css");
+
+@import url(cardayell.com/css/partials/_global.css);
+@import "cardayell.com/css/partials/_global.css";
+@import url("cardayell.com/css/partials/_global.css");
 
 
 /* start navigation */
