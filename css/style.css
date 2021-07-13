@@ -6,7 +6,7 @@
 @import "_variables.css";
 
 /* import global styling */
-@import "partials/_global.css";
+@import url(/partials/_global.css);
 
 /* start navigation */
 
