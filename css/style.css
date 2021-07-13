@@ -3,10 +3,10 @@
 @import url(cardayellm/cardayell.com/css/fonts.css);
 
 /* css variables */
-@import url(/partials/_variables.css);
+@import "_variables.css";
 
 /* import global styling */
-@import url(cardayell.com/css/partials/_global.css);
+@import "_global.css";
 
 /* start navigation */
 
