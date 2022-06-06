@@ -1,4 +1,3 @@
-
 /* import fonts from fonts file */
 @import url("fonts.css");
 
@@ -8,278 +7,303 @@
 /* import global styling */
 @import url("global.css");
 
-
 /* start navigation */
 
-.header_area{
-    background: var(--primary-color2);
+.header_area {
+  background: var(--primary-color2);
 }
 
-.header_area .main-menu .navbar .navbar-brand{
-    padding: 0 2rem 0 5rem;
-    font: normal bold 1.75rem var(--OCR-A);
-    letter-spacing: 4px;
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+  font: normal bold 1.75rem var(--OCR-A);
+  letter-spacing: 4px;
 }
 
-.header_area .main-menu .navbar{
-    padding: 1rem 20rem;
+.header_area .main-menu .navbar {
+  padding: 1rem 20rem;
 }
 
-.header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/15px var(--roboto);
-    text-transform: uppercase;
-    padding: 1.7rem;
-    color: var(--title-color);
+.header_area .main-menu .nav-item .nav-link {
+  font: normal 500 15px/15px var(--roboto);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
 }
 
-.header_area .main-menu .navbar-nav .active a{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-.header_area .main-menu .navbar-nav a:hover{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* end navigation */
 
-
 /* banner area */
 
 .site-main .site-banner {
-    background: url(../img/banner/home-banner.png) no-repeat ;
-    background-color: var(--primary-color2);
-    padding: 3rem;
+  background: url(../img/banner/home-banner.png) no-repeat;
+  background-color: var(--primary-color2);
+  padding: 3rem;
 }
 
-.site-main .site-banner .site-title h3{
-    padding-top: 35%;
-    font-weight: 500;
+.site-main .site-banner .site-title h3 {
+  padding-top: 35%;
+  font-weight: 500;
 }
 
-.site-main .site-banner .site-title h1{
-    font-size: 4rem;
+.site-main .site-banner .site-title h1 {
+  font-size: 4rem;
 }
 
-.site-main .site-banner .site-title h4{
-    font-size: 1.5rem;
+.site-main .site-banner .site-title h4 {
+  font-size: 1.5rem;
 }
 
-.site-main .site-banner .banner-img > img{
-    padding: 7rem 0;
-    width: 90rem;
-    border-radius: 50%;
+.site-main .site-banner .banner-img > img {
+  padding: 7rem 0;
+  width: 90rem;
+  border-radius: 50%;
 }
 
-.site-main .site-banner .button{
-    margin-left: 3rem;
+.site-main .site-banner .button {
+  margin-left: 3rem;
 }
 
-.social{
-    font-size: 45px;
-    padding-right: 60px; 
-    padding-top: 3rem;
+.social {
+  font-size: 45px;
+  padding-right: 60px;
+  padding-top: 3rem;
 }
 
-.fa-envelope, .fa-phone, .fa-linkedin, .fa-github{
-    color: var(--primary-color3);
+.fa-envelope,
+.fa-phone,
+.fa-linkedin,
+.fa-github {
+  color: var(--primary-color3);
 }
 
-.fa-envelope:hover, .fa-phone:hover, .fa-linkedin:hover, .fa-github:hover{
-    color: var(--primary-color);
+.fa-envelope:hover,
+.fa-phone:hover,
+.fa-linkedin:hover,
+.fa-github:hover {
+  color: var(--primary-color);
 }
 
 /* end banner area */
 
 /* start body area */
 
-.site-main .body-break{
-    height: 3rem;
-    background: var(--gradient-color2);
-    border-width: medium;
-    border-color: var(--primary-color3);
-    border-top-style: solid;
-    border-bottom-style: solid;
+.site-main .body-break {
+  height: 3rem;
+  background: var(--gradient-color2);
+  border-width: medium;
+  border-color: var(--primary-color3);
+  border-top-style: solid;
+  border-bottom-style: solid;
 }
 
-.site-main .body-header{
-    font: normal bold 2.5rem var(--OCR-A);
-    letter-spacing: 4px;
+.site-main .body-header {
+  font: normal bold 3rem var(--OCR-A);
+  letter-spacing: 4px;
 }
 
-.site-main .body-sub-header{
-    font: normal bold 2rem var(--roboto);
-    color: var(--text-color);
-    padding-top: 1rem;
-    padding-bottom: .5rem;
+.site-main .body-sub-header {
+  font: normal bold 2rem var(--OCR-A);
+  letter-spacing: 4px;
+  font-size: 300%;
+  padding-top: 1rem;
 }
 
-.site-main .experience-title{
-    font: normal bold 2rem var(--roboto);
-    color: var(--primary-color);
-    padding-top: 2rem;
+.site-main .experience-title {
+  font: normal bold 2rem var(--roboto);
+  color: var(--primary-color);
 }
 
-.site-main .degree-title{
-    font: normal bold 2rem var(--roboto);
-    color: var(--primary-color);
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+.site-main .edu-and-exp-area .row {
+  padding-top: 50px;
 }
 
-.site-main .project-title{
-    font: normal bold 2rem var(--roboto);
-    color: var(--primary-color);
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+.site-main .edu-and-exp-area post-header {
+  padding-bottom: -50px;
 }
 
-.site-main .experience-date{
-    font: normal bold 2rem var(--roboto);
-    color: var(--primary-color);
-    padding-bottom: 1rem;
+.site-main .degree-title {
+  font: normal bold 2rem var(--roboto);
+  color: var(--primary-color);
+  padding-bottom: 1rem;
 }
 
-.site-main .project-description{
-    font: normal bold 1.5rem var(--roboto);
-    color: var(--primary-color3);
+.site-main .project-title {
+  font: normal bold 2rem var(--roboto);
+  color: var(--primary-color);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
-.site-main .edu-and-exp-body-img{
-    margin-left: 3rem;
+.site-main .experience-date {
+  font: normal bold 2rem var(--roboto);
+  color: var(--primary-color);
+  padding-bottom: 1rem;
 }
 
-.site-main .edu-and-exp-body-img > img{
-    margin-right: auto;
-    width: 100%;
-    padding-top: 2rem;
+.site-main .project-description {
+  font: normal bold 1.5rem var(--roboto);
+  color: var(--primary-color3);
 }
 
-.site-main .projects-team > img{
-    margin-right: auto;
-    margin-left: 20%;
-    width: 70%;
-    border: 5px solid var(--primary-color3);
-    margin-top: 5px;
+.site-main .edu-and-exp-body-img {
+  margin-left: 3rem;
 }
 
-.site-main .project-body-img  > img{
+.site-main .edu-and-exp-body-img > img {
+  margin-right: auto;
+  width: 100%;
+}
+
+.site-main .projects-team > img {
+  margin-right: auto;
+  margin-left: 20%;
+  width: 70%;
+  border: 5px solid var(--primary-color3);
+  margin-top: 5px;
+}
+
+.site-main .project-body-img > img {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.site-main .project-body-vid {
     padding-top: 2rem;
     padding-bottom: 2rem;
     width: 100%;
+    height: 43.25rem;
+  }
+
+.site-main .things-done-list {
+  color: var(--text-color);
+  font: normal 500 22px var(--roboto);
+  line-height: 150%;
+  list-style-image: url(../img/body/body-bullet-point.png);
 }
 
-.site-main .things-done-list{
-    color: var(--text-color);
-    font: normal 500 22px var(--roboto);
-    line-height: 150%;
-    list-style-image: url(../img/body/body-bullet-point.png);
+.site-main .about-area,
+.site-main .edu-and-exp-area,
+.site-main .projects-area {
+  padding: 2.5rem 2.5rem;
+  background-color: var(--primary-color2);
 }
 
-.site-main .about-area, .site-main .edu-and-exp-area, .site-main .projects-area{
-    padding: 2.5rem 2.5rem;
-    background-color: var(--primary-color2);
+.site-main .edu-and-exp-area .transcript-button {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 19%;
 }
 
-.site-main .edu-and-exp-area .transcript-button{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 19%;
-}
-
-.site-main .project-button{
-    margin-right: 40%;
-    margin-left: 40%;
-    padding-left: 46px;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+.site-main .project-button {
+  margin-right: 40%;
+  margin-left: 40%;
+  padding-left: 46px;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 /* end body area */
 
+/* photo gallery area */
 
-/* photo gallery area */ 
-  
 /* Position the image container (needed to position the left and right arrows) */
 .about-area .container {
-    position: relative;
+  position: relative;
 }
 
 /* Hide the images by default */
 .photo-slides {
-    display: none;
-    animation-name: fader;
-    animation-duration: .5s;
+  display: none;
+  animation-name: fader;
+  animation-duration: 0.5s;
 }
 
 @keyframes fader {
-    from { opacity: 0.0; }
-    to   { opacity: 1.0; }
+  from {
+    opacity: 0;
   }
+  to {
+    opacity: 1;
+  }
+}
 
 /* Next & previous buttons */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 75px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-    text-decoration: none;
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 75px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  text-decoration: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* end photo gallery area */
 
 /* start footer area */
 
-.footer-area{
-    background-color: var(--primary-color2);
+.footer-area {
+  background-color: var(--primary-color2);
 }
 
-.footer-title{
-    font: normal bold var(--roboto);
+.footer-title {
+  font: normal bold var(--roboto);
 }
 
-.footer-title a:link, .footer-title a:visited{
-    text-decoration: none;
-    color: var(--text-color);
+.footer-title a:link,
+.footer-title a:visited {
+  text-decoration: none;
+  color: var(--text-color);
 }
 
-
-.github-repository a:link, .github-repository a:visited, .email a:link, .email a:visited{
-    color: var(--text-color);
+.github-repository a:link,
+.github-repository a:visited,
+.email a:link,
+.email a:visited {
+  color: var(--text-color);
 }
 
-.github-repository a:hover, .email a:hover{
-    color: var(--primary-color);
+.github-repository a:hover,
+.email a:hover {
+  color: var(--primary-color);
 }
 
-.github-repository{
-    padding-bottom: 1rem;
+.github-repository {
+  padding-bottom: 1rem;
 }
-
-
 
 /* end footer area */
